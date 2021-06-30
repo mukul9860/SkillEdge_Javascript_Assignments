@@ -1,0 +1,2 @@
+# SkillEdge_Javascript_Assignments
+Assignments
