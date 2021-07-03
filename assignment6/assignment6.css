@@ -1,0 +1,77 @@
+body{
+    background-color: beige;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 410px;
+}
+.wlcm_title
+{
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+.txt1
+{
+    font-size: large;
+}
+.box
+{
+    width: 100%;
+    border: 1px solid black;
+    background-color: darkseagreen;
+    color: red;
+}
+.txt{
+    color: darkblue;
+}
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(80, 74, 74);
+    color: white;
+    text-align: center;
+ }
+ .color{
+     background-color: gainsboro;
+ }
+
+ .contact-form{
+    background: #fff;
+    width: 70%;
+    border: 1px solid black;
+    box-shadow: 10px 10px 20px 0px rgb(54, 53, 53);
+    border-radius: 20px;
+}
+.contact-form .form-control{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border: 1px solid black;
+    width: 11%;
+    margin-top: -3%;
+}
+
+.contact-form h3{
+    text-align: center;
+    color: #06720f;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.team
+{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.img1
+{
+    border-radius: 20px;
+}

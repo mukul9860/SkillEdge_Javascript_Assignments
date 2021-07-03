@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mukul's Assignment</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assignment5.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark p-1">
+    <img src="../logo.png" class="rounded-circle" height="50px">
+    <a class="navbar-brand text-light font-weight-bolder" href="../main_page.html">&nbsp;Mukul's Assignment</a>
+
+    <div class="dropdown ml-auto mr-5">
+      <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+        Assignments
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="/assignment1/assignment1.html">Assignment 1</a>
+        <a class="dropdown-item" href="/assignment2/assignment2.html">Assignment 2</a>
+        <a class="dropdown-item" href="/assignment3/assignment3.html">Assignment 3</a>
+        <a class="dropdown-item" href="/assignment4/assignment4.html">Assignment 4</a>
+        <a class="dropdown-item" href="/assignment5/assignment5.html">Assignment 5</a>
+        <a class="dropdown-item" href="/assignment6/assignment6.html">Assignment 6</a>
+      </div>
+    </div>
+  </nav>
+  <h1 class="text-center mt-2 font-italic text-danger"> Assignment 5</h1>
+  <div class="container mt-4">
+    <h2 class="mb-5 mt-3">Future Value Calculator</h2>
+    <form class="font-weight-bold p-2">
+      <div class="form-group row">
+          <label for="inv_amt" class="col-5">Investment Amount</label>
+          <div class="col">
+              <input type="number" class="form-control border-dark" id="inv_amt">
+          </div>
+      </div>
+      <div class="form-group row">
+          <label for="air" class="col-5">Annual Interest Rate</label>
+          <div class="col">
+              <input type="number" class="form-control border-dark" id="air">
+          </div>
+      </div>
+      <div class="form-group row">
+          <label for="noyr" class="col-5">Number of Years</label>
+          <div class="col">
+              <input type="number" class="form-control border-dark" id="noyr">
+          </div>
+      </div>
+      <div class="form-group row">
+          <label for="fut_val" class="col-5">Future Value</label>
+          <div class="col">
+              <input type="text" class="form-control border-dark fut" id="fut_val" disabled>
+          </div>
+      </div>
+      <div class="form-group">
+          <div class="btns mt-5">
+              <button type="button" class="btn btn-primary btn-lg font-weight-bold" onclick="myCalculate()">
+              Calculate</button>
+              <button type="reset" class="btn btn-danger btn-lg font-weight-bold">Reset</button>
+          </div>
+      </div>
+  </form>
+  </div>
+
+  <script src="assignment5.js"></script>
+</body>
+
+</html>

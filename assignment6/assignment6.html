@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mukul's Academy</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="assignment6.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <img src="m.png" class="rounded-circle" width="50px">
+    <a href="#" class="navbar-brand">&nbsp;Mukul's Academy</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ml-auto">
+        <a href="#" class="nav-item nav-link active"><i class="fa fa-home"></i> Home</a>
+        <a href="about.html" class="nav-item nav-link ml-3"><i class="fa fa-info-circle"></i> About Us</a>
+        <a href="contact.html" class="nav-item nav-link ml-3"><i class="fa fa-address-book"></i> Contact</a>
+      </div>
+      <form class="form-inline ml-auto">
+        <input type="text" class="form-control mr-sm-2" placeholder="Search">
+        <button type="submit" class="btn btn-outline-light"><i class="fa fa-search"></i> Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="box">
+    <marquee class="mt-1"><i class="fas fa-angle-double-right"></i>
+      <a href="contact.html" class="txt">&nbsp;&nbsp;Admissions for new academic year 2021-2022 has started&nbsp;&nbsp;</a>
+      <i class="fas fa-angle-double-left"></i>
+    </marquee>
+  </div>
+  <div id="clg" class="carousel slide" data-ride="carousel">
+
+    <ul class="carousel-indicators">
+      <li data-target="#clg" data-slide-to="0" class="active"></li>
+      <li data-target="#clg" data-slide-to="1"></li>
+      <li data-target="#clg" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="clg1.jpg" alt="Los Angeles">
+      </div>
+      <div class="carousel-item">
+        <img src="clg2.jpg" alt="Chicago">
+      </div>
+      <div class="carousel-item">
+        <img src="clg3.jpg" alt="New York">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#clg" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#clg" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <div class="mt-5 text-center">
+    <h2 class="wlcm_title">Welcome to Mukul's Academy</h2>
+    <p class="txt1">Amazing things happen when diverse communities work together to tackle<br> world issues.
+      When Mukul's Academy students apply their knowledge, they have <br>the power to make things right.</p>
+  </div>
+  <p style="border-top: 3px dashed rgb(153, 149, 149);"></p>
+  <div class="ml-auto container text-center mt-3 mb-3">
+    <h2>Courses</h2>
+    <div id="accordion">
+      <div class="card color mt-3">
+        <div class="card-header" id="headingone">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed font-weight-bold text-danger" data-toggle="collapse"
+              data-target="#collapseone" aria-expanded="false" aria-controls="collapseone">
+             <i class="fa fa-angle-double-right"></i> Python Programming <i class="fa fa-angle-double-left"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseone" class="collapse" aria-labelledby="headingone" data-parent="#accordion">
+          <div class="card-body">
+            <h3 class="font-weight-bolder text-primary mb-3">Course Structure</h3>
+            <ul class="list-group">
+              <li class="list-group-item border-dark bg-info font-weight-bold">Fundamentals of Python</li>
+              <li class="list-group-item border-dark bg-info font-weight-bold">Data Types and Variables</li>
+              <li class="list-group-item border-dark bg-info font-weight-bold">Making Decisions</li>
+              <li class="list-group-item border-dark bg-info font-weight-bold">Lists and Loops</li>
+              <li class="list-group-item border-dark bg-info font-weight-bold">Functions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card color">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed font-weight-bold text-danger" data-toggle="collapse"
+              data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <i class="fa fa-angle-double-right"></i> Javascript <i class="fa fa-angle-double-left"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <h3 class="font-weight-bolder text-primary mb-3">Course Structure</h3>
+            <ul class="list-group">
+              <li class="list-group-item border-dark bg-info font-weight-bold">Fundamentals of Javascript</li>
+              <li class="list-group-item border-dark bg-info font-weight-bold">Data Types and Variables</li>
+              <li class="list-group-item border-dark bg-info font-weight-bold">Document object Model</li>
+              <li class="list-group-item border-dark bg-info font-weight-bold">Objects and Classes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card color">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed font-weight-bold text-danger" data-toggle="collapse"
+              data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <i class="fa fa-angle-double-right"></i>  Computer Networks <i class="fa fa-angle-double-left"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <h3 class="font-weight-bolder text-primary mb-3">Course Structure</h3>
+            <ul class="list-group">
+              <li class="list-group-item border-dark bg-info font-weight-bold">Introduction to Computer Network</li>
+              <li class="list-group-item border-dark bg-info font-weight-bold">Network Software</li>
+              <li class="list-group-item border-dark bg-info font-weight-bold">Network Layer</li>
+              <li class="list-group-item border-dark bg-info font-weight-bold">Routing Algorithms</li>
+              <li class="list-group-item border-dark bg-info font-weight-bold">User Datagram Protocol</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p class="pt-2">Copyright © <a href="#" class="text-light">Mukul's Academy</a> 2021</p>
+  </div>
+</body>
+
+</html>

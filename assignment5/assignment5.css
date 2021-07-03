@@ -1,0 +1,27 @@
+body
+{
+    background-color: lightgrey;
+}
+.container
+{
+    border: 2px solid darkblue;
+    background-color: ghostwhite;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 0px rgb(14, 8, 0);
+}
+h2
+{
+    color: darkblue;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+.btns
+{
+    text-align: center;
+}
+.fut
+{
+    height: 80px;
+}

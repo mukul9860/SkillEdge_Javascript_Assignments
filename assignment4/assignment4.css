@@ -1,0 +1,28 @@
+body
+{
+    background-color: lightgrey;
+}
+.container
+{
+    border: 2px solid darksalmon;
+    background-color: floralwhite;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 0px rgb(90, 52, 2);
+}
+.wlc
+{
+    text-align: center;
+    font-size: x-large;
+}
+.city
+{
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.color
+{
+    background-color: honeydew;
+}
